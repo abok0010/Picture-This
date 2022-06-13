@@ -32,9 +32,32 @@ h4 {
 img {
   display: block;
 }
+@media (min-width: 320px){
+  .title {
+    padding: 50px 25px;
+    text-align: center;
+  }
 
-@media (min-width: 960px) {
+}
+
+ 
+
+@media (min-width: 970px){
   .header {
     grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    }
+}
+
+@media (min-width: 970px){
+  .title {
+    padding: 165px 25px;
   }
+
+  picture{
+    position: absolute;
+    right:-1px;
+    top: 1px;
+  }
+
 }
